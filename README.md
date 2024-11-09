@@ -25,9 +25,9 @@ This project leverages three datasets:
 1. Data Cleaning & Quality Checks: Identified and addressed key data issues such as outliers, missing values, and inconsistencies to ensure accurate analysis.
 2. Data Integration: Joined datasets using customized functions to create a unified dataset, combining route, cost, and occupancy information.
 3. Profitability Analysis:
-  - Calculated revenue from ticket sales and baggage fees.
-  - Assessed operational costs including fuel, maintenance, delays, and airport fees.
-  - Conducted breakeven analysis to evaluate the minimum flights required to cover airplane acquisition costs.
+    - Calculated revenue from ticket sales and baggage fees.
+    - Assessed operational costs including fuel, maintenance, delays, and airport fees.
+    - Conducted breakeven analysis to evaluate the minimum flights required to cover airplane acquisition costs.
 
 ## 🔎 Key Analysis & Results
 
