@@ -8,7 +8,7 @@ This project simulates a scenario where an airline, aiming to enter the U.S. dom
 
 1. **Identify the 10 busiest round-trip routes** in terms of flight volume.
 2. **Calculate the 10 most profitable routes** based on revenue and operational costs.
-3. **Recommend the top 5 route*s** for investment based on profitability, customer demand, and operational factors.
+3. **Recommend the top 5 routes** for investment based on profitability, customer demand, and operational factors.
 4. **Perform breakeven analysis** for each selected route, considering the upfront cost of $90 million per airplane.
 5. **Define KPIs** for ongoing performance tracking to ensure long-term profitability and alignment with brand values.
 
