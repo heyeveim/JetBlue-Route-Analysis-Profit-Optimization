@@ -10,16 +10,16 @@ The dataset includes key operational and financial information for flights, such
 
 ## 🔎 Key Analysis
 
-Top Routes by Traffic – Identified the 10 busiest round-trip routes based on passenger volume.
-Most Profitable Routes – Excluding upfront airplane costs, we calculated net profitability for each route by analyzing total revenue (ticket price, baggage fees) against total costs (maintenance, operation, delays).
-Breakeven Analysis – Performed breakeven analysis on ticket pricing strategies, considering different price levels and class-specific price sensitivity.
+- Top Routes by Traffic – Identified the 10 busiest round-trip routes based on passenger volume.
+- Most Profitable Routes – Excluding upfront airplane costs, we calculated net profitability for each route by analyzing total revenue (ticket price, baggage fees) against total costs (maintenance, operation, delays).
+- Breakeven Analysis – Performed breakeven analysis on ticket pricing strategies, considering different price levels and class-specific price sensitivity.
 
 ## 💼 Predictive Modeling
 
 For profitability predictions, I employed Python to analyze profitability across various factors, using techniques such as:
 
-Data Aggregation: Summed and compared revenue and costs by route, airport type, and delay penalties.
-Profit Optimization: Adjusted ticket prices and baggage fees to determine breakeven points and maximize profitability.
+- Data Aggregation: Summed and compared revenue and costs by route, airport type, and delay penalties.
+- Profit Optimization: Adjusted ticket prices and baggage fees to determine breakeven points and maximize profitability.
 
 ## 📈 Business Insights
 
@@ -29,9 +29,9 @@ Top Performing Routes – Focused recommendations for routes with the greatest t
 
 ## 🛠️ Skills Demonstrated
 
-Python Data Analysis – Employed Pandas, Matplotlib, and other libraries for data manipulation, visualization, and profitability analysis.
-Decision Modeling – Developed cost and revenue models to support strategic decisions.
-Business Insight Generation – Provided actionable recommendations based on statistical analysis and breakeven modeling.
+- Python Data Analysis – Employed Pandas, Matplotlib, and other libraries for data manipulation, visualization, and profitability analysis.
+- Decision Modeling – Developed cost and revenue models to support strategic decisions.
+- Business Insight Generation – Provided actionable recommendations based on statistical analysis and breakeven modeling.
 
 ## 🖍️ Next Steps
 
