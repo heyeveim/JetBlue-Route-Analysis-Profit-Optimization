@@ -1,38 +1,56 @@
-# ✈️ JetBlue Route Optimization and Profitability Analysis
+# ✈️ JetBlue Route Profitability and Optimization Analysis
 
-## ⚙️ Project Overview
+## ⚙️ Problem Statement
 
-This project analyzes JetBlue's domestic round-trip routes to identify the most profitable routes and optimize ticket pricing. Using data-driven analysis, we aimed to develop insights that can enhance revenue through strategic route management and cost optimization.
+This project simulates a scenario where an airline, aiming to enter the U.S. domestic market, seeks to identify and invest in the most profitable round-trip routes. Given the airline’s motto, “On time, for you,” maintaining punctuality and maximizing profitability are crucial. Using real-world data from Q1 2019, our goal is to recommend five optimal round-trip routes between medium and large U.S. airports.
 
-## 📊 Data
+## 🎯 Project Objectives
 
-The dataset includes key operational and financial information for flights, such as route details, passenger counts, ticket prices, baggage fees, and various operational costs (e.g., maintenance and delay penalties). This structured data provides a solid foundation to analyze factors impacting route profitability.
+### 1. Identify the 10 busiest round-trip routes in terms of flight volume.
+### 2. Calculate the 10 most profitable routes based on revenue and operational costs.
+### 3. Recommend the top 5 routes for investment based on profitability, customer demand, and operational factors.
+### 4. Perform breakeven analysis for each selected route, considering the upfront cost of $90 million per airplane.
+### 5. Define KPIs for ongoing performance tracking to ensure long-term profitability and alignment with brand values.
 
-## 🔎 Key Analysis
+## 📊 Data Overview
 
-- Top Routes by Traffic – Identified the 10 busiest round-trip routes based on passenger volume.
-- Most Profitable Routes – Excluding upfront airplane costs, we calculated net profitability for each route by analyzing total revenue (ticket price, baggage fees) against total costs (maintenance, operation, delays).
-- Breakeven Analysis – Performed breakeven analysis on ticket pricing strategies, considering different price levels and class-specific price sensitivity.
+This project leverages three datasets:
 
-## 💼 Predictive Modeling
+- Flights Dataset: Provides route-specific data, including occupancy rates and delays.
+- Tickets Dataset: Contains sample ticket price information for round trips.
+- Airport Codes Dataset: Classifies airports as medium or large for route selection criteria.
 
-For profitability predictions, I employed Python to analyze profitability across various factors, using techniques such as:
+## 🔍 Methodology
 
-- Data Aggregation: Summed and compared revenue and costs by route, airport type, and delay penalties.
-- Profit Optimization: Adjusted ticket prices and baggage fees to determine breakeven points and maximize profitability.
+1. Data Cleaning & Quality Checks: Identified and addressed key data issues such as outliers, missing values, and inconsistencies to ensure accurate analysis.
+2. Data Integration: Joined datasets using customized functions to create a unified dataset, combining route, cost, and occupancy information.
+3. Profitability Analysis:
+- Calculated revenue from ticket sales and baggage fees.
+- Assessed operational costs including fuel, maintenance, delays, and airport fees.
+- Conducted breakeven analysis to evaluate the minimum flights required to cover airplane acquisition costs.
 
-## 📈 Business Insights
+## 🔎 Key Analysis & Results
 
-- Ticket Price Adjustment – Increasing ticket prices within certain customer segments can drive higher margins without impacting demand significantly.
-- Baggage Fee Strategy – Doubling baggage fees on high-demand routes approaches breakeven more efficiently than ticket sales increases alone.
-- Top Performing Routes – Focused recommendations for routes with the greatest traffic and potential for price adjustment to maximize revenue.
+- Top 10 Busiest Routes: Identified based on flight volume, providing insights into high-demand travel routes.
+- Most Profitable Routes: Analyzed net profitability by excluding upfront airplane costs, considering total revenue, operating expenses, and additional costs like delay fees.
+- Investment Recommendations: Selected five routes based on factors such as profitability, demand, and alignment with the airline’s punctuality standards.
 
-## 🛠️ Skills Demonstrated
+## 📈 Business Insights & KPIs
 
-- Python Data Analysis – Employed Pandas, Matplotlib, and other libraries for data manipulation, visualization, and profitability analysis.
-- Decision Modeling – Developed cost and revenue models to support strategic decisions.
-- Business Insight Generation – Provided actionable recommendations based on statistical analysis and breakeven modeling.
+- Ticket Pricing Strategy: Increasing ticket prices for certain customer segments improves margins without significantly reducing demand.
+- Cost Optimization: Strategic adjustments to baggage fees and operational efficiencies on high-demand routes support profitability.
+- KPIs for Future Tracking:
+  - Customer Acquisition Cost (CAC)
+  - Customer Lifetime Value (CLV)
+  - On-Time Performance Rate
+  - Revenue per Available Seat Mile (RASM)
+
+## 💻 Technical Skills Demonstrated
+
+- Python: Utilized for data manipulation (Pandas), visualization (Matplotlib), and regression modeling.
+- Data Analysis: Conducted cost and profitability modeling to support investment recommendations.
+- Visualization: Created charts to illustrate route performance and cost-benefit analysis, supporting data-driven decision-making.
 
 ## 🖍️ Next Steps
 
-Future work could include incorporating additional variables, such as ticket price elasticity, customer demographics, and seasonal factors, to refine the model further. Additionally, deploying machine learning models could enhance predictive accuracy for revenue projections and route performance.
+Future enhancements could include integrating customer demographic data and refining the model with machine learning for more accurate revenue predictions. Incorporating seasonal trends could further improve route selection strategies.
