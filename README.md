@@ -23,9 +23,9 @@ For profitability predictions, I employed Python to analyze profitability across
 
 ## 📈 Business Insights
 
-Ticket Price Adjustment – Increasing ticket prices within certain customer segments can drive higher margins without impacting demand significantly.
-Baggage Fee Strategy – Doubling baggage fees on high-demand routes approaches breakeven more efficiently than ticket sales increases alone.
-Top Performing Routes – Focused recommendations for routes with the greatest traffic and potential for price adjustment to maximize revenue.
+- Ticket Price Adjustment – Increasing ticket prices within certain customer segments can drive higher margins without impacting demand significantly.
+- Baggage Fee Strategy – Doubling baggage fees on high-demand routes approaches breakeven more efficiently than ticket sales increases alone.
+- Top Performing Routes – Focused recommendations for routes with the greatest traffic and potential for price adjustment to maximize revenue.
 
 ## 🛠️ Skills Demonstrated
 
