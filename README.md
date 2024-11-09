@@ -21,16 +21,19 @@ For profitability predictions, I employed Python to analyze profitability across
 
 Data Aggregation: Summed and compared revenue and costs by route, airport type, and delay penalties.
 Profit Optimization: Adjusted ticket prices and baggage fees to determine breakeven points and maximize profitability.
+
 📈 Business Insights
 
 Ticket Price Adjustment – Increasing ticket prices within certain customer segments can drive higher margins without impacting demand significantly.
 Baggage Fee Strategy – Doubling baggage fees on high-demand routes approaches breakeven more efficiently than ticket sales increases alone.
 Top Performing Routes – Focused recommendations for routes with the greatest traffic and potential for price adjustment to maximize revenue.
+
 🛠️ Skills Demonstrated
 
 Python Data Analysis – Employed Pandas, Matplotlib, and other libraries for data manipulation, visualization, and profitability analysis.
 Decision Modeling – Developed cost and revenue models to support strategic decisions.
 Business Insight Generation – Provided actionable recommendations based on statistical analysis and breakeven modeling.
+
 🖍️ Next Steps
 
 Future work could include incorporating additional variables, such as ticket price elasticity, customer demographics, and seasonal factors, to refine the model further. Additionally, deploying machine learning models could enhance predictive accuracy for revenue projections and route performance.
