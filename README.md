@@ -35,7 +35,7 @@ This project leverages three datasets:
 - **Most Profitable Route*s**: Analyzed net profitability by excluding upfront airplane costs, considering total revenue, operating expenses, and additional costs like delay fees.
 - **Investment Recommendations**: Selected five routes based on factors such as profitability, demand, and alignment with the airline’s punctuality standards.
 
-  ![Chart of data trends](images/screenshot.png)
+![Chart of data trends](screenshot.png)
 
 
 ## 📈 Business Insights & KPIs
