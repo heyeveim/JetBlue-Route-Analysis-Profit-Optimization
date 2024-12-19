@@ -35,6 +35,19 @@ This project leverages three datasets:
 - **Most Profitable Route*s**: Analyzed net profitability by excluding upfront airplane costs, considering total revenue, operating expenses, and additional costs like delay fees.
 - **Investment Recommendations**: Selected five routes based on factors such as profitability, demand, and alignment with the airline’s punctuality standards.
 
+
+<p align="center">
+  <img src="https://i.imgur.com/qQEdDBd.png" width="500" />
+  <br />
+</p>
+<p align="center">
+  <img src="https://i.imgur.com/NTn0wR1.png" width="500" />
+  <br />
+</p>
+
+
+
+
 ## 📈 Business Insights & KPIs
 
 - **Ticket Pricing Strategy**: Increasing ticket prices for certain customer segments improves margins without significantly reducing demand.
@@ -44,6 +57,13 @@ This project leverages three datasets:
   - Customer Lifetime Value (CLV)
   - On-Time Performance Rate
   - Revenue per Available Seat Mile (RASM)
+    
+<p align="center">
+  <img src="https://i.imgur.com/uir6q3e.png" />
+  <br />
+</p> 
+
+
 
 ## 💻 Technical Skills Demonstrated
 
