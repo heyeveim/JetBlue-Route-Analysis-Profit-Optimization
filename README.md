@@ -47,6 +47,13 @@ This project leverages three datasets:
 - **Most Profitable Route*s**:
     - Net profitability calculated by subtracting modeled operating costs from expected revenue.
     - Note: Aircraft purchase costs excluded in profit calc, but considered separately in breakeven analysis.
+ 
+
+
+--> See the chart below for a visual summary of route profitability:
+
+<img width="1512" height="918" alt="Image" src="https://github.com/user-attachments/assets/a5794e08-0f63-488e-9ad3-96169a470821" />
+
 
 - **Recommended Top 5 Routes**:
     Chosen based on:
