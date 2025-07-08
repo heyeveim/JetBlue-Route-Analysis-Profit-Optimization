@@ -54,6 +54,7 @@ This project leverages three datasets:
 
 <img width="1512" height="918" alt="Image" src="https://github.com/user-attachments/assets/a5794e08-0f63-488e-9ad3-96169a470821" />
 
+<img width="697" height="660" alt="Image" src="https://github.com/user-attachments/assets/b9635b8f-dadd-4a5b-a4ef-dfc14291b84f" />
 
 - **Recommended Top 5 Routes**:
     Chosen based on:
