@@ -93,8 +93,7 @@ This project leverages three datasets:
 
     
 <p align="center">
-  <img src="https://i.imgur.com/uir6q3e.png" />
-    <img width="1067" height="200" alt="Image" src="https://github.com/user-attachments/assets/cfa22c1f-8da1-40c6-ae79-09df55d6850f" />
+  <img width="1067" height="200" alt="Image" src="https://github.com/user-attachments/assets/cfa22c1f-8da1-40c6-ae79-09df55d6850f" />
   <br />
 </p> 
 
