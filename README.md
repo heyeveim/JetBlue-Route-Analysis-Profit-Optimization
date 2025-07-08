@@ -50,7 +50,7 @@ This project leverages three datasets:
  
 
 
---> See the chart below for a visual summary of route profitability:
+    --> See the chart below for a visual summary of route profitability:
 
 <p align="center">
   <img width="697" height="660" alt="Image" src="https://github.com/user-attachments/assets/b9635b8f-dadd-4a5b-a4ef-dfc14291b84f" />
