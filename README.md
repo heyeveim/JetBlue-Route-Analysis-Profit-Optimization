@@ -52,9 +52,11 @@ This project leverages three datasets:
 
 --> See the chart below for a visual summary of route profitability:
 
-<img width="1512" height="918" alt="Image" src="https://github.com/user-attachments/assets/a5794e08-0f63-488e-9ad3-96169a470821" />
+<p align="center">
+  <img width="697" height="660" alt="Image" src="https://github.com/user-attachments/assets/b9635b8f-dadd-4a5b-a4ef-dfc14291b84f" />
+  <br />
+</p>
 
-<img width="697" height="660" alt="Image" src="https://github.com/user-attachments/assets/b9635b8f-dadd-4a5b-a4ef-dfc14291b84f" />
 
 - **Recommended Top 5 Routes**:
     Chosen based on:
@@ -111,7 +113,7 @@ It supports:
 | ----------------- | ----------------------------------------------------- |
 | Programming       | Python (Pandas, NumPy), SQL                           |
 | Analysis          | Cost modeling, breakeven analysis, revenue prediction |
-| Visualization     | Matplotlib, Seaborn                                   |
+| Visualization     | Matplotlib, Seaborn,Tableu                            |
 | Data Handling     | Data cleaning, merging, custom join functions         |
 | Business Concepts | KPI design, market sizing, customer behavior insights |
 
