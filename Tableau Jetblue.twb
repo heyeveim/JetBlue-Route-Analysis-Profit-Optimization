@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Tableau_Ready_Route_Profitability_Data' inline='true' name='federated.1tdvyko0vitoei1gfsc731yz4631' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Tableau_Ready_Route_Profitability_Data' name='textscan.1dimtr00p9c3sk1b1wfng1v7n8ct'>
+            <connection class='textscan' directory='/Users/yujinim/Desktop' filename='Tableau_Ready_Route_Profitability_Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1dimtr00p9c3sk1b1wfng1v7n8ct' name='Tableau_Ready_Route_Profitability_Data.csv' table='[Tableau_Ready_Route_Profitability_Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Route' ordinal='0' />
+            <column datatype='integer' name='Total_Flights' ordinal='1' />
+            <column datatype='integer' name='Total_Revenue' ordinal='2' />
+            <column datatype='integer' name='Total_Cost' ordinal='3' />
+            <column datatype='integer' name='Net_Profit' ordinal='4' />
+            <column datatype='real' name='Avg_Delay_Min' ordinal='5' />
+            <column datatype='real' name='RASM' ordinal='6' />
+            <column datatype='real' name='Occupancy_Rate' ordinal='7' />
+            <column datatype='integer' name='Breakeven_Price' ordinal='8' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Route</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Route]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>Route</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Flights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Flights]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>Total_Flights</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Revenue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Revenue]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>Total_Revenue</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total_Cost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total_Cost]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>Total_Cost</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Net_Profit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Net_Profit]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>Net_Profit</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Delay_Min</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Delay_Min]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>Avg_Delay_Min</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RASM</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RASM]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>RASM</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occupancy_Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Occupancy_Rate]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>Occupancy_Rate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Breakeven_Price</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Breakeven_Price]</local-name>
+            <parent-name>[Tableau_Ready_Route_Profitability_Data.csv]</parent-name>
+            <remote-alias>Breakeven_Price</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Avg Delay Min' datatype='real' name='[Avg_Delay_Min]' role='measure' type='quantitative' />
+      <column caption='Breakeven Price' datatype='integer' name='[Breakeven_Price]' role='measure' type='quantitative' />
+      <column caption='Net Profit' datatype='integer' name='[Net_Profit]' role='measure' type='quantitative' />
+      <column caption='Occupancy Rate' datatype='real' name='[Occupancy_Rate]' role='measure' type='quantitative' />
+      <column caption='Rasm' datatype='real' name='[RASM]' role='measure' type='quantitative' />
+      <column caption='Total Cost' datatype='integer' name='[Total_Cost]' role='measure' type='quantitative' />
+      <column caption='Total Flights' datatype='integer' name='[Total_Flights]' role='measure' type='quantitative' />
+      <column caption='Total Revenue' datatype='integer' name='[Total_Revenue]' role='measure' type='quantitative' />
+      <column caption='Tableau_Ready_Route_Profitability_Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Tableau_Ready_Route_Profitability_Data.csv' id='Tableau_Ready_Route_Profitability_Data.csv_3BB9EA552E1146D790E0F5EFAFBE84CB'>
+            <properties context=''>
+              <relation connection='textscan.1dimtr00p9c3sk1b1wfng1v7n8ct' name='Tableau_Ready_Route_Profitability_Data.csv' table='[Tableau_Ready_Route_Profitability_Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Route' ordinal='0' />
+                  <column datatype='integer' name='Total_Flights' ordinal='1' />
+                  <column datatype='integer' name='Total_Revenue' ordinal='2' />
+                  <column datatype='integer' name='Total_Cost' ordinal='3' />
+                  <column datatype='integer' name='Net_Profit' ordinal='4' />
+                  <column datatype='real' name='Avg_Delay_Min' ordinal='5' />
+                  <column datatype='real' name='RASM' ordinal='6' />
+                  <column datatype='real' name='Occupancy_Rate' ordinal='7' />
+                  <column datatype='integer' name='Breakeven_Price' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top 10 Most Profitable U.S. Domestic Routes – Q1 2019</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Tableau_Ready_Route_Profitability_Data' name='federated.1tdvyko0vitoei1gfsc731yz4631' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tdvyko0vitoei1gfsc731yz4631'>
+            <column caption='Net Profit' datatype='integer' name='[Net_Profit]' role='measure' type='quantitative' />
+            <column caption='Occupancy Rate' datatype='real' name='[Occupancy_Rate]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Route]' role='dimension' type='nominal' />
+            <column caption='Total Cost' datatype='integer' name='[Total_Cost]' role='measure' type='quantitative' />
+            <column caption='Total Revenue' datatype='integer' name='[Total_Revenue]' role='measure' type='quantitative' />
+            <column-instance column='[Occupancy_Rate]' derivation='Avg' name='[avg:Occupancy_Rate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Route]' derivation='None' name='[none:Route:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Net_Profit]' derivation='Sum' name='[sum:Net_Profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Cost]' derivation='Sum' name='[sum:Total_Cost:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total_Revenue]' derivation='Sum' name='[sum:Total_Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1tdvyko0vitoei1gfsc731yz4631].[none:Route:nk]' direction='DESC' using='[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Net_Profit:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Net_Profit:qk]' value='c&quot;$&quot;#,##0,,.0M;-&quot;$&quot;#,##0,,.0M' />
+            <format attr='text-orientation' field='[federated.1tdvyko0vitoei1gfsc731yz4631].[none:Route:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Net_Profit:qk]' palette='tableau-map-blue-green' type='interpolated' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Net_Profit:qk]' />
+              <tooltip column='[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Total_Revenue:qk]' />
+              <tooltip column='[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Total_Cost:qk]' />
+              <tooltip column='[federated.1tdvyko0vitoei1gfsc731yz4631].[avg:Occupancy_Rate:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Route:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1tdvyko0vitoei1gfsc731yz4631].[none:Route:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Net Profit:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Net_Profit:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Occupancy Rate: </run>
+                <run bold='true'><![CDATA[ 	<[federated.1tdvyko0vitoei1gfsc731yz4631].[avg:Occupancy_Rate:qk]>%]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Cost:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Total_Cost:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Total Revenue:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Total_Revenue:qk]>]]></run>
+                <run>Æ&#10;&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Net_Profit:qk]</rows>
+        <cols>[federated.1tdvyko0vitoei1gfsc731yz4631].[none:Route:nk]</cols>
+      </table>
+      <simple-id uuid='{D6A01FA6-4B83-4467-B68B-D7AB811B7D48}' />
+    </worksheet>
+  </worksheets>
+  <windows pres-mode='true' source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1tdvyko0vitoei1gfsc731yz4631].[sum:Net_Profit:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1tdvyko0vitoei1gfsc731yz4631].[none:Route:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2FBA901D-FFA0-4271-92F0-9106F9141098}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+      r0/t7e2qqqqS67p68803tWrVKpWWlqqlpUVBEKihocHUqABgJWMBKCoqUm9vr9asWaPi4mIV
+      Fxerurpazc3NM9ZNT0+rq6tLDz30UPZz69evV3d3tzZv3qxIJJI9GgiCIHtKyff97Oel60cc
+      CyGVSiuZTC7ItgDAJGMBeOSRRxSNRnXs2DFt3LhR69evv+W6N954Q8uXL9fg4KBc11V1dbXK
+      ysqUSCR07tw5rVmzRmfPns2udxxHkhSLxbJ/l6RYZmEea4jFrh/VAMBiZ+wxgP7+fnmep40b
+      N2poaEi+7yudTmf/nJ6e1sTEhBobG1VcXCzf97M/3TuOo7KyMp06dUorVqz4xbCuK8/z5Hne
+      jJ0/AGD+jB0B5Ofnq729XUuXLtWuXbt04cIFnT9/Xp7n6fTp03rwwQc1NjamVatWZdcXFhZm
+      d+wlJSXKy8tTNBrVmjVrTI0JANZywhtPpN9liURCxcXFC3LK5IOPJ/XcWx3Gt/PdbRu0uazE
+      +HYAwCTHcRxjRwCSVFlZafLmAQCfAc8EBgBLEQAAsBQBAABLEQAAsBQBAABLEQAAsBQBAABL
+      EQAAsBQBAABLEQAAsBQBAABLEQAAsBQBAABLGX01UBsFYSA/TBvfTsSJ8aY4AD4TAnCXTaSH
+      dWa8xfh2GkualBspML4dAJ9fnAICAEsRAACwFAEAAEsRAACwFAEAAEsRAACwFAEAAEsRAACw
+      FAEAAEsRAACwFAEAAEsRAACwFAEAAEsRAACwFAEAAEsZDUAikdC1a9eyH4dhqEwmc9O6TCaj
+      ZDKpMAxvWhMEgXzfNzkmAFjJ2BvC9PT06OjRoyooKNDjjz+uaDSqQ4cOqbi4WI899lh23fnz
+      53XixAl5nqfy8nLV1dXphz/8ob7+9a8rGo2qpaVFg4ODeuaZZ0yNCgBWMhaA3t5ebdmyRStX
+      rlRpaalGR0fV1NSk1tbWGeuqqqr0zDPPKJ1O6+WXX9aqVatUUlKi8+fPq66uTgMDA4pGozfd
+      fhAEMz4Ow9DUXblpO7+87XszRzDnHABwO8YCsGPHDh04cEB9fX16+umnVVpaqlQqddO6nJwc
+      DQ4O6uDBg9q3b59831dtba3OnTunkpISLV26VCMjI5Ik3/dnPR10q1NLJvgZf85tZRbodFUm
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
