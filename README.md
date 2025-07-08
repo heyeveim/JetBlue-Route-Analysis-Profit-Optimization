@@ -1,7 +1,7 @@
 # ✈️ JetBlue Route Profitability and Optimization Analysis
 
 ## Executive Summary
-In this project, I simulated a strategic expansion scenario for JetBlue Airways by identifying the top five most profitable U.S. domestic round-trip routes. Using Q1 2019 real-world data, I performed profitability modeling, breakeven analysis, and KPI design to support investment decisions aligned with JetBlue's operational values — particularly punctuality and customer satisfaction.
+In this project, I simulated a strategic expansion scenario for JetBlue Airways by identifying the top five most profitable U.S. domestic round-trip routes. Using Q1 2019 real-world data, I performed profitability modeling, breakeven analysis, and KPI design to support investment decisions aligned with JetBlue's operational values, particularly punctuality and customer satisfaction.
 
 This project showcases how data-driven insights can support multi-departmental business decisions, with applications in finance, operations, and marketing.
 
@@ -14,6 +14,7 @@ This project showcases how data-driven insights can support multi-departmental b
 - Perform breakeven analysis considering a $90M aircraft acquisition cost
 - Define KPIs to monitor long-term route performance and profitability
 
+
 ## Data Overview
 
 This project leverages three datasets:
@@ -21,6 +22,7 @@ This project leverages three datasets:
 - **Flights Dataset**: Includes route-specific details, occupancy rates, and delays
 - **Tickets Dataset**: Contains round-trip ticket prices and baggage fee info
 - **Airport Codes Dataset**: Classifies airports as medium or large
+
 
 ## Methodology
 
@@ -94,6 +96,7 @@ It supports:
 - Marketing → Pricing strategy and demand segmentation
 - Operations → Route efficiency and delay reduction
 
+
 ## Technical Skills Applied
 
 | Category          | Tools / Techniques                                    |
@@ -105,12 +108,14 @@ It supports:
 | Business Concepts | KPI design, market sizing, customer behavior insights |
 
 
+
 ## Future Enhancements
 
 - Add customer demographic segmentation (e.g., business vs. leisure travelers)
 - Use machine learning for revenue prediction and delay pattern detection
 - Incorporate seasonal demand shifts and event-based demand spikes
 - Build an interactive dashboard (e.g., Tableau) to visualize route performance
+
 
 
 ## Reflections
